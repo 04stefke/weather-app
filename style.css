@@ -21,28 +21,32 @@
     padding: 60px;
     border-radius: 30px;
     color: #fff;
-    width: 400px;
-    height: 600px;
     text-align: center;
+    width: 400px;
 }
 
 .footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
 }
 
 .temp-deg{
     font-size: 50px;
-    margin-bottom: 50px;
-    margin-top: 40px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    margin-top: 30px;
 }
 
 .city-name{
     font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
 }
 
+.search-bar{
+    width: 100%;
+}
 
 .search-bar input{
     outline: none;
@@ -51,6 +55,7 @@
     padding: 10px 30px;
     background-color: #96c6ea;
     caret-color:#443663;
+    width: 70%;
 }
 .search-bar input::placeholder{
     color: white;
@@ -64,6 +69,7 @@
     font-size: 20px;
     cursor: pointer;
     color: white;
+
 }
 
 
@@ -74,6 +80,11 @@
 .hum-icon,
 .wind-icon {
     width: 70px;
+}
+
+.weather{
+    display: none;
+    width: 80%;
 }
 
 
