@@ -3,13 +3,16 @@
     font-family: 'Roboto', sans-serif;
 }
 
+body{
+    background: linear-gradient(135deg, #ebf4f5 0%, #b5c6e0 100%)
+}
+
 .main{
     width: 100vw;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(135deg, #ebf4f5 0%, #b5c6e0 100%)
 }
 
 .card{
