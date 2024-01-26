@@ -48,6 +48,10 @@
     width: 100%;
 }
 
+.icon p{
+    text-transform: capitalize;
+}
+
 .search-bar input{
     outline: none;
     border: none;
