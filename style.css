@@ -3,7 +3,78 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #ebf4f5 0%, #b5c6e0 100%)
+}
 
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    background: linear-gradient(135deg, #b597f6 0%, #96c6ea 100%);
+    padding: 60px;
+    border-radius: 30px;
+    color: #fff;
+    width: 400px;
+    height: 600px;
+    text-align: center;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.temp-deg{
+    font-size: 50px;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+
+.city-name{
+    font-size: 24px;
+}
+
+
+.search-bar input{
+    outline: none;
+    border: none;
+    border-radius: 100px;
+    padding: 10px 30px;
+    background-color: #96c6ea;
+    caret-color:#443663;
+}
+.search-bar input::placeholder{
+    color: white;
+    font-size: 15px;
+}
+
+.search-bar button{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+}
+
+
+.status-icon{
+    width: 150px;
+}
+
+.hum-icon,
+.wind-icon {
+    width: 70px;
+}
 
 
 
