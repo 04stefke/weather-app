@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weahter App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <section class="main">
+        <div class="card">
+            <div class="search-bar">
+                <input type="text">
+                <button><i class='bx bx-search-alt'></i></button>
+            </div>
+            <div class="weather-main">
+                <div class="icon">
+                    <img src="weahter Icons/clear-day.png" class="status-icon" alt="">
+                </div>
+                <div class="temp">
+                    <h1 class="temp-deg">1°</h1>
+                </div>
+                <div class="city">
+                    <h3 class="city-name">City</h3>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="humidity">
+                    <div class="humidity-centar">
+                        <img src="weahter Icons/humidity.png" alt="">
+                        <p class="per-hum">90%</p>
+                    </div>
+                    <p>Humidity</p>
+                </div>
+                <div class="wind">
+                    <div class="wind-centar">
+                        <img src="weahter Icons/wind.png" alt="">
+                        <p class="wind-speed">10 km/h</p>
+                    </div>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
