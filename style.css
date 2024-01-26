@@ -46,6 +46,7 @@
 
 .search-bar{
     width: 100%;
+    position: relative;
 }
 
 .icon p{
@@ -89,6 +90,14 @@
 .weather{
     display: none;
     width: 80%;
+}
+
+.error-msg{
+    padding-top: 10px;
+    color: red;
+    display: none;
+    position: absolute;
+    left: 30%;
 }
 
 
