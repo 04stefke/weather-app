@@ -24,7 +24,7 @@ async function getWeather(city){
         if(data.weather[0].description == 'few clouds')
         {
             document.querySelector('.status-icon').src = 'weahter Icons/fewClouds-day.png'
-        } else 
+        } else if(data.weather[0].description == 'clouds')
         {
             document.querySelector('.status-icon').src = 'weahter Icons/scattered-clouds.png'
         }
@@ -39,7 +39,7 @@ async function getWeather(city){
         if(data.weather[0].description == 'shower rain')
         {
             document.querySelector('.status-icon').src = 'weahter Icons/shower-rain.png'
-        } else 
+        } else if(data.weather[0].description == 'rain')
         {
             document.querySelector('.status-icon').src = 'weahter Icons/rain-day.png'
         }
