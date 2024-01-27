@@ -32,6 +32,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 50px;
 }
 
 .temp-deg{
@@ -82,6 +83,7 @@ body{
 
 
 .status-icon{
+    margin-top: 20px;
     width: 150px;
 }
 
@@ -91,7 +93,7 @@ body{
 }
 
 .weather{
-    display: none;
+    display: block;
     width: 80%;
 }
 
@@ -102,6 +104,46 @@ body{
     position: absolute;
     left: 30%;
 }
+
+
+@media screen and (max-width: 800px) {
+    .card{
+        width: 300px;
+        height: fit-content;
+    }
+
+    .search-bar input{
+        width: 50%;
+    }
+
+    .status-icon{
+        width: 120px;
+    }
+
+    .hum-icon,
+    .wind-icon {
+    width: 50px;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    .card{
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        justify-content: space-around;
+        border-radius: 0;
+    }
+    .search-bar{
+        margin: 40px;
+    }
+    .footer{
+        margin-top: 200px;
+    }
+
+}
+
 
 
 

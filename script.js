@@ -19,15 +19,9 @@ async function getWeather(city){
     document.querySelector('.weather-description').innerHTML = data.weather[0].description
 
 
-    if(data.weather[0].main == 'clouds')
-    {
-        if(data.weather[0].description == 'few clouds')
-        {
-            document.querySelector('.status-icon').src = 'weahter Icons/fewClouds-day.png'
-        } else if(data.weather[0].description == 'clouds')
-        {
-            document.querySelector('.status-icon').src = 'weahter Icons/scattered-clouds.png'
-        }
+    if(data.weather[0].main == 'Clouds')
+    { 
+        document.querySelector('.status-icon').src = 'weahter Icons/scattered-clouds.png'
     } else if(data.weather[0].main == 'Mist')
     {
         document.querySelector('.status-icon').src = 'weahter Icons/mist.png'
@@ -36,17 +30,13 @@ async function getWeather(city){
         document.querySelector('.status-icon').src = 'weahter Icons/snow.png'
     } else if(data.weather[0].main == 'Rain')
     {
-        if(data.weather[0].description == 'shower rain')
-        {
-            document.querySelector('.status-icon').src = 'weahter Icons/shower-rain.png'
-        } else if(data.weather[0].description == 'rain')
-        {
-            document.querySelector('.status-icon').src = 'weahter Icons/rain-day.png'
-        }
+        document.querySelector('.status-icon').src = 'weahter Icons/rain-day.png'
     } else if(data.weather[0].main == 'Thunderstorm')
     {
         document.querySelector('.status-icon').src = 'weahter Icons/thunderstorm.png'
-    } 
+    } else {
+        document.querySelector('.status-icon').src = 'weahter Icons/thunderstorm.png'
+    }
 
     document.querySelector('.weather').style.display = 'block'
 
