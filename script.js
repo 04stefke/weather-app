@@ -15,7 +15,7 @@ async function getWeather(city){
     document.querySelector('.temp-deg').innerHTML = Math.round(data.main.temp) + '°'
     document.querySelector('.city-name').innerHTML = data.name
     document.querySelector('.per-hum').innerHTML = data.main.humidity + '%'
-    document.querySelector('.wind-speed').innerHTML = data.wind.speed + ' km/h'
+    document.querySelector('.wind-speed').innerHTML = Math.round(data.wind.speed) + ' km/h'
     document.querySelector('.weather-description').innerHTML = data.weather[0].description
 
 

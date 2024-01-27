@@ -63,7 +63,7 @@ body{
     border-radius: 100px;
     padding: 10px 30px;
     background-color: #96c6ea;
-    caret-color:#443663;
+    caret-color:#886bc9;
     width: 70%;
 }
 .search-bar input::placeholder{
@@ -93,7 +93,7 @@ body{
 }
 
 .weather{
-    display: block;
+    display: none;
     width: 80%;
 }
 
@@ -103,6 +103,14 @@ body{
     display: none;
     position: absolute;
     left: 30%;
+}
+
+.humidity,
+.wind{
+    padding: 10px;
+    background: linear-gradient(310deg,#a992db 0%, #5aaceb 100%);
+    border-radius: 10px;
+    width: 105px ;
 }
 
 
@@ -123,6 +131,16 @@ body{
     .hum-icon,
     .wind-icon {
     width: 50px;
+    }
+
+    .humidity,
+    .wind{
+        width: 70px;
+    }
+
+    .humidity p,
+    .wind p {
+        font-size: 14px;
     }
 
 }
