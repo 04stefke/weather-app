@@ -65,6 +65,7 @@ body{
     background-color: #96c6ea;
     caret-color:#886bc9;
     width: 70%;
+    color: white;
 }
 .search-bar input::placeholder{
     color: white;
