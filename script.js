@@ -34,9 +34,7 @@ async function getWeather(city){
     } else if(data.weather[0].main == 'Thunderstorm')
     {
         document.querySelector('.status-icon').src = 'weahter Icons/thunderstorm.png'
-    } else {
-        document.querySelector('.status-icon').src = 'weahter Icons/thunderstorm.png'
-    }
+    } 
 
     document.querySelector('.weather').style.display = 'block'
 
